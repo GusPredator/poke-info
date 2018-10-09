@@ -1,0 +1,38 @@
+.Content{
+  text-align: center;
+  background-color: #979797;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.pokeContent{
+  display: flex;
+  margin: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: black;
+}
+
+.subPokeContent1{
+  background-color: #F1E0D4;
+  min-width: 30vh;
+  min-height: 40vh;
+  margin: 5px;
+}
+
+.subPokeContent2{
+  background-color: #F1E0D4;
+  min-width: 30vh;
+  min-height: 40vh;
+  margin: 5px;
+}
+.subPokeContent3{
+  background-color: #F1E0D4;
+  min-width: 30vh;
+  min-height: 40vh;
+  margin: 5px;
+}
