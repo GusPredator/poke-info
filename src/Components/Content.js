@@ -16,14 +16,8 @@ class Content extends Component {
 componentDidMount(){
   fetch('https://pokeapi.co/api/v2/pokemon/')
     .then(response => response.json())
-    .then(results => {
-      results.results.forEach(results => {
-        let data = {
-          name:results.name,
-          url:results.url
-        }
-        this.setState({ results:this.state.results.concat([data])})
-      })
+    .then(response => {
+        this.setState({results:response.results})
     })
 }
 
