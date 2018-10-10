@@ -13,6 +13,20 @@
   color: red;
 }
 
+.theInputs{
+  margin: 10px;
+}
+
+.theOptionsParagraphDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.theOptionsParagraph{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .pokeContent{
   display: flex;
   margin: 5px;
