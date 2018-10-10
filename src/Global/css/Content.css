@@ -1,39 +1,44 @@
 .Content{
   text-align: center;
   background-color: #979797;
+  align-items: center;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
   color: white;
 }
 
+.theButton{
+  width: 200px;
+  color: red;
+}
+
 .pokeContent{
   display: flex;
   margin: 5px;
   flex-direction: row;
-  align-items: center;
+
   justify-content: center;
   padding: 10px;
-  color: black;
+  color: white;
 }
 
 .subPokeContent1{
-  background-color: #F1E0D4;
+  background-color: #2B2B2B;
   min-width: 30vh;
-  min-height: 40vh;
+  min-height: 30vh;
   margin: 5px;
-  text-align: left;
 }
 
 .subPokeContent2{
-  background-color: #F1E0D4;
+  background-color: #2B2B2B;
   min-width: 30vh;
-  min-height: 40vh;
+  min-height: 30vh;
   margin: 5px;
 }
 .subPokeContent3{
-  background-color: #F1E0D4;
+  background-color: #2B2B2B;
   min-width: 30vh;
-  min-height: 40vh;
+  min-height: 30vh;
   margin: 5px;
 }
